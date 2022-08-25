@@ -1,4 +1,6 @@
 {
+
+    "players": {
   "xPeke": {
     "IGN": "xPeke",
     "Country": "Spain",
@@ -69,4 +71,5 @@
       "FavChamps": ["Shen", "Nidalee", "Jayce"],
       "IsChampion": true
   }
+}
 }

@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --main-bg-color: rgb(26, 25, 25);
+    --header-bg-color: rgb(65, 61, 61);
+    --white-color: #fff; 
+    --black-color: #000;
+    --info-color: #c3b4e2;
+    --correct-color: #025802;
+    --present-color: #b2a718;
+    --wrong-color: #be0f0f;
+    --fs-modal: 20px;
+    --fs-modal-small: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, :before, :after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    background-color: var(--main-bg-color);
+    align-items: center;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid rgb(48, 46, 46);
+    padding: 10px 40px;
+}
+
+#attempts {
+    color: var(--white-color);
+}
+
+.title {
+    color: var(--white-color);
+    font-size: 35px;
+    text-align: center;
+}
+
+#help-toggle {
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
+    border-radius: 50%;
+    padding: 3px 15px;
+    cursor: pointer;
+
+    transition: all ease-in .2s;
+}
+
+#help-toggle:hover {
+    background-color: var(--white-color);
+    color: var(--header-bg-color);
+}
+
+/* GAME */
+
+.game {
+    margin: 30px 60px 50px 60px;
+    width: 700px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-hint {
+    color: var(--white-color);
+    font-size: 12px;
+    font-weight: 200;
+}
+
+/* SUBMIT */
+
+.submit-form {
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+
+
+.player-ign {
+    color: var(--white-color);
+    margin: 0 30px 0 0;
+}
+
+input {
+    border-radius: 5px 0 0 5px;
+    border: 1px solid var(--black-color);
+    padding: 5px;
+}
+
+button {
+    background: none;
+    background-color: var(--white-color);
+    border: 1px solid var(--black-color);
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--);
+}
+
+hr {
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* PLAYER-INFO */
+
+.new-player {
+    color: var(--white-color);
+    padding: 15px 0;
+    width: 140px;
+    height: 50px;
+}
+
+.champion-sprites {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    display: block;
+}
+
+.sprite {
+    background-image: url(assets/champions-sprite.jpg);
+    height: 25px;
+    width: 25px;
+    background-size: 387px auto;
+}
+
+/* MODAL */
+
+/* MODAL-OVERLAY */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: grid;
+    place-items: center;
+    visibility: hidden;
+    z-index: -10;
+}
+
+.modal-container {
+    background-color: var(--main-bg-color);
+    max-width: 500px;
+    min-height: 550px;
+}
+
+.modal-content {
+    margin: 22px;
+    position: relative;
+}
+
+.modal-content button {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    padding: 0;
+    background: none; 
+    background-color: var(--main-bg-color);
+    color: var(--white-color);
+    border: none;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+.modal-content p {
+    color: var(--white-color);
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+/* OPEN/CLOSE MODAL */
+
+.open-modal {
+    visibility: visible;
+    z-index: 10;
+}
+
+.close-btn {
+    transition: all .2s linear;
+}
+
+.close-btn:hover {
+    background-color: var(--header-bg-color);
+    border-radius: 3px;
+}

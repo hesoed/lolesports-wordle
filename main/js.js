@@ -94,6 +94,6 @@ let players = {
     }
   };
 
-  fetch('https://jsonplaceholder.typicode.com/todos/1')
+  fetch('https://my-json-server.typicode.com/hesoed/lolesports-wordle')
   .then(response => response.json())
-  .then(json => console.log(json))
+  .then(json => console.log(json.xPeke))

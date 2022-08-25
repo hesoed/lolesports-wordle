@@ -2,6 +2,8 @@
   "xPeke": {
     "IGN": "xPeke",
     "Country": "Spain",
+    "Team": "Fnatic",
+    "FavChamps": ["Kassadin", "Karthus", "LeBlanc"],
     "IsChampion": true
   },
   "LamiaZealot": {
@@ -16,55 +18,6 @@
       "Country": "Poland",
       "Team": "Fnatic",
       "FavChamps": ["Gragas", "Lux", "Alistar"],
-      "IsChampion": true
-  },
-  "Mellisan": {
-      "IGN": "Mellisan",
-      "Country": "Germany",
-      "Team": "Fnatic",
-      "FavChamps": ["Janna"],
-      "IsChampion": true
-  },
-  "Cyanide": {
-      "IGN": "Cyanide",
-      "Country": "Finland",
-      "Team": "Fnatic",
-      "FavChamps": ["Jarvan", "Amumu", "Lee Sin"],
-      "IsChampion": true
-  },
-  "Lilballz": {
-      "IGN": "Lilballz",
-      "Country": "Taiwan",
-      "Team": "TPA",
-      "FavChamps": ["Mundo", "Alistar", "Olaf"],
-      "IsChampion": true
-  },
-  "BeBe": {
-      "IGN": "BeBe",
-      "Country": "Taiwan",
-      "Team": "TPA",
-      "FavChamps": ["Ezreal", "Tristana", "KaiSa"],
-      "IsChampion": true
-  },
-  "MiSTakE": {
-      "IGN": "MiSTakE",
-      "Country": "Taiwan",
-      "Team": "TPA",
-      "FavChamps": ["Nunu and Willump", "Blitzcrank", "Sona"],
-      "IsChampion": true
-  },
-  "Toyz": {
-      "IGN": "Toyz",
-      "Country": "Taiwan",
-      "Team": "TPA",
-      "FavChamps": ["Orianna", "Twisted Fate", "Anivia"],
-      "IsChampion": true
-  },
-  "Stanley": {
-      "IGN": "Stanley",
-      "Country": "Taiwan",
-      "Team": "TPA",
-      "FavChamps": ["Shen", "Nidalee", "Jayce"],
       "IsChampion": true
   }
 }
